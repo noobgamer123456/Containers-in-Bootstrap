@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <style>
+      #box {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      #bgb {
+        border: 7px solid crimson;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container bg-dark text-danger mt-5">
+      <h1>My First Bootstrap Page</h1>
+      <p>This Part is Inside a container Class</p>
+      <p>The Container Class Provides a Responsive fixed width container</p>
+    </div>
+    <div class="container-fluid bg-warning mt-5" id="box">
+      <h1>My First Bootstrap Page</h1>
+      <p>This Part is Inside a container class</p>
+      <p>The Container Class Provides a Responsive fixed width container</p>
+    </div>
+
+    <div
+      class="container bg-dark text-danger mt-5 border border-warning rounded"
+    >
+      <h1>My First Bootstrap Page</h1>
+      <p>This Part is Inside a container Class</p>
+      <p>The Container Class Provides a Responsive fixed width container</p>
+    </div>
+
+    <div class="container bg-dark text-danger mt-5 mb-5" id="bgb">
+      <h1>My First Bootstrap Page</h1>
+      <p>This Part is Inside a container Class</p>
+      <p>The Container Class Provides a Responsive fixed width container</p>
+    </div>
+  </body>
+</html>
